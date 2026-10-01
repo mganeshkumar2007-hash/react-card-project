@@ -1,11 +1,11 @@
 :root {
-    --bg: #f8fafc;
-    --card-bg: #ffffff;
-    --text: #1e293b;
-    --text-muted: #64748b;
-    --border: #e2e8f0;
-    --primary: #4f46e5;
-    --primary-hover: #4338ca;
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --primary: #3b82f6;
+    --primary-hover: #60a5fa;
 }
 
 * {
@@ -39,7 +39,7 @@ body {
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 1.75rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
 }
 
 .card-top {
@@ -59,15 +59,15 @@ body {
 }
 
 .status-badge.available {
-    background: #dcfce7;
-    color: #15803d;
-    border-color: #bbf7d0;
+    background: #064e3b;
+    color: #a7f3d0;
+    border-color: #047857;
 }
 
 .status-badge.busy {
-    background: #fef3c7;
-    color: #b45309;
-    border-color: #fde68a;
+    background: #78350f;
+    color: #fde68a;
+    border-color: #b45309;
 }
 
 .bookmark-btn {
@@ -104,6 +104,7 @@ body {
 
 .profile-info h2 {
     font-size: 1.25rem;
+    color: var(--text);
 }
 
 .profile-title {
@@ -120,7 +121,7 @@ body {
 }
 
 .bio-section {
-    background: var(--bg);
+    background: #0f172a;
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 0.85rem;
@@ -163,7 +164,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--bg);
+    background: #0f172a;
     border: 1px solid var(--border);
     border-radius: 6px;
     padding: 0.5rem 0.75rem;
@@ -172,10 +173,11 @@ body {
 .skill-name {
     font-size: 0.85rem;
     font-weight: 500;
+    color: var(--text);
 }
 
 .endorse-btn {
-    background: #ffffff;
+    background: #1e293b;
     border: 1px solid var(--border);
     border-radius: 4px;
     font-size: 0.75rem;
@@ -185,7 +187,7 @@ body {
 }
 
 .endorse-btn:hover {
-    background: #f1f5f9;
+    background: #334155;
 }
 
 .card-footer {
@@ -221,5 +223,5 @@ body {
 }
 
 .btn-secondary:hover {
-    background: var(--bg);
+    background: #0f172a;
 }
